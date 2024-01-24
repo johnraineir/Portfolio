@@ -1,0 +1,25 @@
+/*
+  File: Assignment No. 2
+  Student’s Name: John Raineir Po-on
+  StudentID: 301363442
+  Date: 01/21/2024
+*/
+
+/* Bag content */
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* main bg color *****/
+body {
+    background: #1A120B;
+    color: #D5CEA3;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
