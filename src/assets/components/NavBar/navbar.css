@@ -57,6 +57,10 @@
     cursor: pointer;
 }
 
+.desktopMenuBtn:hover {
+    background: #ffffff;
+}
+
 
 .desktopMenuImg {
     object-fit: cover;
@@ -64,6 +68,8 @@
     width: 1rem;
     margin: 1rem;
 }
+
+
 
 /* kulay white pag nka tapat sa nav bar */
 .active {

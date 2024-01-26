@@ -21,8 +21,8 @@
 .contactPageTitle {
     font-size: 3rem;
     margin-bottom: 1rem;
-
 }
+
 
 .servicesDesc {
     color: white;
@@ -69,8 +69,8 @@
     width: 3rem;
     margin: 0.5rem;
     padding: 0.2rem;
-    
 }
+
 
 .contactDesc {
     padding: 1rem;
@@ -78,6 +78,8 @@
     font-weight: 200;
     color: rgb(207, 205, 205);
 }
+
+
 
 .contactForm {
     margin: 1rem;
@@ -102,7 +104,7 @@
 }
 
 .submitBtn {
-    background-color: #D5CEA3;
+    background-color: #E5E5CB;
     font-size: small;
     color: #3C2A21;
     border: none;
@@ -110,6 +112,10 @@
     margin: 1rem;
     padding: 0.75rem 2rem;
     cursor: pointer;
+    
 }
 
 
+.submitBtn:hover {
+    background: #ffffff;
+}
