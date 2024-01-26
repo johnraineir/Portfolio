@@ -1,0 +1,111 @@
+/*
+  File: Assignment No. 2
+  Student’s Name: John Raineir Po-on
+  StudentID: 301363442
+  Date: 01/21/2024
+*/
+
+.navbar {
+    background: #1A120B;
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+
+.logo {
+    margin-top: 0rem;
+    object-fit: cover;
+    height: 5rem;
+    width: 5rem;
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        display: flex;
+    }
+}
+
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.desktopMenuListItem:hover {
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+/*phone icon contact me */
+.desktopMenuBtn {
+    background-color: #E5E5CB;
+    color: #3C2A21;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.8rem;
+    border-radius: 23rem;
+    cursor: pointer;
+}
+
+
+.desktopMenuImg {
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+}
+
+/* kulay white pag nka tapat sa nav bar */
+.active {
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.mobMenu {
+    display: none;
+    object-fit: cover;
+    height: 2rem;
+
+}
+
+.navMenu {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 5rem;
+    background: #352c26;
+    border-radius: 1rem;
+}
+
+.listItem:hover {
+    color: #E5E5CB;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: #1A120B;
+}
+
+@media screen and (max-width: 720px) {
+    .mobMenu {
+        display: flex;
+    }
+    .desktopMenu {
+        display: none;
+    }
+    .desktopMenuBtn {
+        display: none;
+    }
+}

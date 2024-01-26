@@ -1,0 +1,18 @@
+/*
+  File: Assignment No. 2
+  Student’s Name: John Raineir Po-on
+  StudentID: 301363442
+  Date: 01/21/2024
+*/
+
+.footer {
+    width: 100vw;
+    height: 2rem;
+    background: #1b1a19;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: small;
+}
